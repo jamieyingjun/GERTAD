@@ -1,0 +1,570 @@
+{
+  "status": "PASS",
+  "jobs_completed": 15,
+  "complete_five_method_comparison": true,
+  "fresh_model_inference": true,
+  "training_or_calibration_refit": false,
+  "timing_benchmark": false,
+  "summary": [
+    {
+      "method": "GERTAD",
+      "metric": "f1",
+      "seeds": 3,
+      "mean": 0.9623021445508898,
+      "seed_sd_sample": 0.000749974513220728
+    },
+    {
+      "method": "GERTAD",
+      "metric": "ba",
+      "seeds": 3,
+      "mean": 0.9653454571439575,
+      "seed_sd_sample": 0.0017868088816215956
+    },
+    {
+      "method": "GERTAD",
+      "metric": "auroc",
+      "seeds": 3,
+      "mean": 0.9768698909924572,
+      "seed_sd_sample": 0.001307113658586681
+    },
+    {
+      "method": "GERTAD",
+      "metric": "ap",
+      "seeds": 3,
+      "mean": 0.9616019512896911,
+      "seed_sd_sample": 0.0024352646154947814
+    },
+    {
+      "method": "GERTAD",
+      "metric": "accuracy",
+      "seeds": 3,
+      "mean": 0.9663941475817452,
+      "seed_sd_sample": 0.0009546429052026566
+    },
+    {
+      "method": "GERTAD",
+      "metric": "brier",
+      "seeds": 3,
+      "mean": 0.04597805493145977,
+      "seed_sd_sample": 0.0024637541171115868
+    },
+    {
+      "method": "GERTAD",
+      "metric": "ece",
+      "seeds": 3,
+      "mean": 0.06072308717093521,
+      "seed_sd_sample": 0.003062020459024162
+    },
+    {
+      "method": "GERTAD",
+      "metric": "pair",
+      "seeds": 3,
+      "mean": 0.9250301245014959,
+      "seed_sd_sample": 0.005137908431796268
+    },
+    {
+      "method": "GERTAD",
+      "metric": "concordance",
+      "seeds": 3,
+      "mean": 0.9720189750114289,
+      "seed_sd_sample": 0.001799394064238155
+    },
+    {
+      "method": "GERTAD",
+      "metric": "visit",
+      "seeds": 3,
+      "mean": 0.9668809376590989,
+      "seed_sd_sample": 0.0031051017588013896
+    },
+    {
+      "method": "GERTAD",
+      "metric": "first_time_mae_s",
+      "seeds": 3,
+      "mean": 16.27238549608173,
+      "seed_sd_sample": 1.4018053389330292
+    },
+    {
+      "method": "GERTAD",
+      "metric": "accessibility_mae_m",
+      "seeds": 3,
+      "mean": 12.112597675034495,
+      "seed_sd_sample": 0.5580777043228216
+    },
+    {
+      "method": "GERTAD",
+      "metric": "order",
+      "seeds": 3,
+      "mean": 0.9043442388214668,
+      "seed_sd_sample": 0.0059224445071746614
+    },
+    {
+      "method": "GERTAD",
+      "metric": "severe_f1",
+      "seeds": 3,
+      "mean": 0.919295535881893,
+      "seed_sd_sample": 0.0010604318236245277
+    },
+    {
+      "method": "GERTAD",
+      "metric": "severe_ba",
+      "seeds": 3,
+      "mean": 0.9242985231957143,
+      "seed_sd_sample": 0.002234180220060592
+    },
+    {
+      "method": "GERTAD",
+      "metric": "primary_four_metric_mean",
+      "seeds": 3,
+      "mean": 0.9665298609942489,
+      "seed_sd_sample": 0.001487313362152069
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "f1",
+      "seeds": 3,
+      "mean": 0.9004406232710366,
+      "seed_sd_sample": 0.03627509305531714
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "ba",
+      "seeds": 3,
+      "mean": 0.9056416720125449,
+      "seed_sd_sample": 0.03225031150690965
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "auroc",
+      "seeds": 3,
+      "mean": 0.9714940300290221,
+      "seed_sd_sample": 0.010819863115324109
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "ap",
+      "seeds": 3,
+      "mean": 0.9619638390701573,
+      "seed_sd_sample": 0.011547668309721374
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "accuracy",
+      "seeds": 3,
+      "mean": 0.9171768039315658,
+      "seed_sd_sample": 0.028309612524286223
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "brier",
+      "seeds": 3,
+      "mean": 0.06771062538481575,
+      "seed_sd_sample": 0.017443113563480758
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "ece",
+      "seeds": 3,
+      "mean": 0.051109851906387276,
+      "seed_sd_sample": 0.009644538613505425
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "pair",
+      "seeds": 3,
+      "mean": 0.7083009020784429,
+      "seed_sd_sample": 0.10604622950944882
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "concordance",
+      "seeds": 3,
+      "mean": 0.9803329750639974,
+      "seed_sd_sample": 0.004861061573495584
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "visit",
+      "seeds": 3,
+      "mean": 0.950118352924616,
+      "seed_sd_sample": 0.002172020421112755
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "first_time_mae_s",
+      "seeds": 3,
+      "mean": 9.541537057269702,
+      "seed_sd_sample": 0.5176929065482472
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "accessibility_mae_m",
+      "seeds": 3,
+      "mean": 12.93753686095729,
+      "seed_sd_sample": 0.17336576902177805
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "order",
+      "seeds": 3,
+      "mean": 0.9088115894181265,
+      "seed_sd_sample": 0.007445388518777738
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "severe_f1",
+      "seeds": 3,
+      "mean": 0.8602335486370903,
+      "seed_sd_sample": 0.02868165787763905
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "severe_ba",
+      "seeds": 3,
+      "mean": 0.8635326638849872,
+      "seed_sd_sample": 0.02606235884288105
+    },
+    {
+      "method": "LM-TAD GoalAdapter",
+      "metric": "primary_four_metric_mean",
+      "seeds": 3,
+      "mean": 0.9348850410956903,
+      "seed_sd_sample": 0.022698419424312204
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "f1",
+      "seeds": 3,
+      "mean": 0.9458927490227115,
+      "seed_sd_sample": 0.00346823556211024
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "ba",
+      "seeds": 3,
+      "mean": 0.9415337705265987,
+      "seed_sd_sample": 0.0037223966795917112
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "auroc",
+      "seeds": 3,
+      "mean": 0.9839676547558146,
+      "seed_sd_sample": 0.0011329925993310448
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "ap",
+      "seeds": 3,
+      "mean": 0.9811306435428736,
+      "seed_sd_sample": 0.0006252013026896474
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "accuracy",
+      "seeds": 3,
+      "mean": 0.9461731077968866,
+      "seed_sd_sample": 0.003141954153157265
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "brier",
+      "seeds": 3,
+      "mean": 0.04453236860613552,
+      "seed_sd_sample": 0.003640559760209761
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "ece",
+      "seeds": 3,
+      "mean": 0.027590174002613793,
+      "seed_sd_sample": 0.00476819364992376
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "pair",
+      "seeds": 3,
+      "mean": 0.8589395430255852,
+      "seed_sd_sample": 0.01082358996745788
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "concordance",
+      "seeds": 3,
+      "mean": 0.9853786593474303,
+      "seed_sd_sample": 0.0003535131913944684
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "visit",
+      "seeds": 3,
+      "mean": 0.970558657359318,
+      "seed_sd_sample": 0.0009502896200604474
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "first_time_mae_s",
+      "seeds": 3,
+      "mean": 9.156400478247441,
+      "seed_sd_sample": 0.07710946812258433
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "accessibility_mae_m",
+      "seeds": 3,
+      "mean": 11.989383430191964,
+      "seed_sd_sample": 0.30683023511045854
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "order",
+      "seeds": 3,
+      "mean": 0.9396062729199143,
+      "seed_sd_sample": 0.0017730196274011564
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "severe_f1",
+      "seeds": 3,
+      "mean": 0.9046073952661696,
+      "seed_sd_sample": 0.0045598765531231975
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "severe_ba",
+      "seeds": 3,
+      "mean": 0.8995454711255132,
+      "seed_sd_sample": 0.003761741770988285
+    },
+    {
+      "method": "CETrajAD GoalAdapter",
+      "metric": "primary_four_metric_mean",
+      "seeds": 3,
+      "mean": 0.9631312044619996,
+      "seed_sd_sample": 0.0019963612446912047
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "f1",
+      "seeds": 3,
+      "mean": 0.9274042849224883,
+      "seed_sd_sample": 0.010777762358160073
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "ba",
+      "seeds": 3,
+      "mean": 0.931570560648336,
+      "seed_sd_sample": 0.007840976468687675
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "auroc",
+      "seeds": 3,
+      "mean": 0.9815570901056154,
+      "seed_sd_sample": 0.0009369623739727461
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "ap",
+      "seeds": 3,
+      "mean": 0.9743807478736551,
+      "seed_sd_sample": 0.003067286946098789
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "accuracy",
+      "seeds": 3,
+      "mean": 0.9405515355327155,
+      "seed_sd_sample": 0.005094500613210079
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "brier",
+      "seeds": 3,
+      "mean": 0.05076769533208253,
+      "seed_sd_sample": 0.004504512534575422
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "ece",
+      "seeds": 3,
+      "mean": 0.04108201276885396,
+      "seed_sd_sample": 0.0060743534303016895
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "pair",
+      "seeds": 3,
+      "mean": 0.7924925999376553,
+      "seed_sd_sample": 0.0356444215365291
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "concordance",
+      "seeds": 3,
+      "mean": 0.9848778068770926,
+      "seed_sd_sample": 0.00024280195894285075
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "visit",
+      "seeds": 3,
+      "mean": 0.9651516606389693,
+      "seed_sd_sample": 0.0014588878084980873
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "first_time_mae_s",
+      "seeds": 3,
+      "mean": 9.4051180861213,
+      "seed_sd_sample": 0.1402796905688191
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "accessibility_mae_m",
+      "seeds": 3,
+      "mean": 12.862260688434949,
+      "seed_sd_sample": 0.6246636363024141
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "order",
+      "seeds": 3,
+      "mean": 0.9325108241696052,
+      "seed_sd_sample": 0.0012514872999839746
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "severe_f1",
+      "seeds": 3,
+      "mean": 0.8880606927807243,
+      "seed_sd_sample": 0.009889488674796401
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "severe_ba",
+      "seeds": 3,
+      "mean": 0.8931651996477322,
+      "seed_sd_sample": 0.007069836172473493
+    },
+    {
+      "method": "GM-VSAE GoalAdapter",
+      "metric": "primary_four_metric_mean",
+      "seeds": 3,
+      "mean": 0.9537281708875236,
+      "seed_sd_sample": 0.005589744545838754
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "f1",
+      "seeds": 3,
+      "mean": 0.9162152962930893,
+      "seed_sd_sample": 0.014166867644118944
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "ba",
+      "seeds": 3,
+      "mean": 0.91903550940315,
+      "seed_sd_sample": 0.01676240212725848
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "auroc",
+      "seeds": 3,
+      "mean": 0.9761186347194029,
+      "seed_sd_sample": 0.001979218716235876
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "ap",
+      "seeds": 3,
+      "mean": 0.9673750468828414,
+      "seed_sd_sample": 0.0019592643283028667
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "accuracy",
+      "seeds": 3,
+      "mean": 0.9305303614385755,
+      "seed_sd_sample": 0.00914552708974175
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "brier",
+      "seeds": 3,
+      "mean": 0.05965640940582103,
+      "seed_sd_sample": 0.005849130270443732
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "ece",
+      "seeds": 3,
+      "mean": 0.042727713960617475,
+      "seed_sd_sample": 0.001219964850695769
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "pair",
+      "seeds": 3,
+      "mean": 0.7620796196465426,
+      "seed_sd_sample": 0.06785475143961224
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "concordance",
+      "seeds": 3,
+      "mean": 0.9818075300180875,
+      "seed_sd_sample": 0.00256538525964513
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "visit",
+      "seeds": 3,
+      "mean": 0.9583384994438262,
+      "seed_sd_sample": 0.002866203838668607
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "first_time_mae_s",
+      "seeds": 3,
+      "mean": 9.768818584355442,
+      "seed_sd_sample": 0.9056741628755866
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "accessibility_mae_m",
+      "seeds": 3,
+      "mean": 13.721615531227805,
+      "seed_sd_sample": 0.9712765158658181
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "order",
+      "seeds": 3,
+      "mean": 0.9157460787959617,
+      "seed_sd_sample": 0.01019038737565999
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "severe_f1",
+      "seeds": 3,
+      "mean": 0.8808213942389278,
+      "seed_sd_sample": 0.010029116605614018
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "severe_ba",
+      "seeds": 3,
+      "mean": 0.8837516507752409,
+      "seed_sd_sample": 0.013849466100777173
+    },
+    {
+      "method": "IDK GoalAdapter",
+      "metric": "primary_four_metric_mean",
+      "seeds": 3,
+      "mean": 0.9446861218246209,
+      "seed_sd_sample": 0.008330126580702677
+    }
+  ]
+}

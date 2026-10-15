@@ -1,0 +1,71 @@
+{
+  "jobs": [
+    {
+      "method": "tad",
+      "seed": 17
+    },
+    {
+      "method": "tad",
+      "seed": 29
+    },
+    {
+      "method": "tad",
+      "seed": 43
+    },
+    {
+      "method": "lm",
+      "seed": 17
+    },
+    {
+      "method": "lm",
+      "seed": 29
+    },
+    {
+      "method": "lm",
+      "seed": 43
+    },
+    {
+      "method": "ce",
+      "seed": 17
+    },
+    {
+      "method": "ce",
+      "seed": 29
+    },
+    {
+      "method": "ce",
+      "seed": 43
+    },
+    {
+      "method": "gm",
+      "seed": 17
+    },
+    {
+      "method": "gm",
+      "seed": 29
+    },
+    {
+      "method": "gm",
+      "seed": 43
+    },
+    {
+      "method": "idk",
+      "seed": 17
+    },
+    {
+      "method": "idk",
+      "seed": 29
+    },
+    {
+      "method": "idk",
+      "seed": 43
+    }
+  ],
+  "verified_files": 152,
+  "python": "3.12.4",
+  "torch": "2.10.0+cpu",
+  "numpy": "2.4.3",
+  "fresh_model_inference": true,
+  "training_or_calibration_refit": false,
+  "timing_benchmark": false
+}

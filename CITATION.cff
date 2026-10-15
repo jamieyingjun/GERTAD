@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying GERTAD manuscript when using this program."
+title: "GERTAD: Goal-Relative Evidence Recovery for Trajectory Anomaly Detection"
+authors:
+  - family-names: Ji
+    given-names: Yingjun
+type: software
+version: "2026-10-15"
+keywords:
+  - trajectory anomaly detection
+  - goal-relative evidence recovery
+  - GERTAD

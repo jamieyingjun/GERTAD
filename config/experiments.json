@@ -1,0 +1,1024 @@
+{
+  "methods": [
+    "tad",
+    "lm",
+    "ce",
+    "gm",
+    "idk"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "jobs": {
+    "tad_17": {
+      "method": "tad",
+      "seed": 17,
+      "checkpoint": {
+        "file": "checkpoints/tad_17/model.pt",
+        "sha256": "1a29531c811609157dd219a1d139f5c778a1515d10304b17d4e496ed5ace6fc6",
+        "original_sha256": "f3694a6908b1dc004d685deeabccfa97b5e2a4a34a78154f34dbe7de86b9877d",
+        "tensor_fingerprint_sha256": "916093dfd26bb3c986ca85398017592adfafdf293f277aabaa06e5e5d1bbc344"
+      },
+      "directory": "checkpoints/tad_17",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            7.1901511200483075
+          ]
+        ],
+        "calibration_intercept": [
+          -2.748105042085296
+        ],
+        "selection": {
+          "candidates": 143,
+          "threshold": 0.005370101928710902,
+          "validation_macro_ba": 0.9619837385837138,
+          "validation_macro_f1": 0.9554288126861903
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "dd4c069772f16a5ad694b64790da1a64bb29c21c709958bd07b0572b833bca21",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration_coefficients": [
+          [
+            7.1901511200483075
+          ]
+        ],
+        "calibration_intercept": [
+          -2.748105042085296
+        ],
+        "selection": {
+          "candidates": 143,
+          "threshold": 0.005370101928710902,
+          "validation_macro_ba": 0.9619837385837138,
+          "validation_macro_f1": 0.9554288126861903
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "dd4c069772f16a5ad694b64790da1a64bb29c21c709958bd07b0572b833bca21",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/tad_17.npz"
+    },
+    "tad_29": {
+      "method": "tad",
+      "seed": 29,
+      "checkpoint": {
+        "file": "checkpoints/tad_29/model.pt",
+        "sha256": "d2550239fce63a420f728a64ded4fe5014ea12b63f20d8a376cfb77e0391fe18",
+        "original_sha256": "1c49c5e3bee0e7735c351cff5159116190bcab139f175b27714ad62891818f5d",
+        "tensor_fingerprint_sha256": "94dd4fd291147972a53ad4400fb3d31e1bf4c88b7232db9ec1aa7ce17796eb6b"
+      },
+      "directory": "checkpoints/tad_29",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            6.47867677486712
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6841507932972832
+        ],
+        "selection": {
+          "candidates": 146,
+          "threshold": 0.0029370371500651027,
+          "validation_macro_ba": 0.9560146127576583,
+          "validation_macro_f1": 0.950034466276391
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "3772b35cb94a50aa2da5561cb5723b6dc3b264e80c5fd3ad4b22c0cba3a25a7b",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration_coefficients": [
+          [
+            6.47867677486712
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6841507932972832
+        ],
+        "selection": {
+          "candidates": 146,
+          "threshold": 0.0029370371500651027,
+          "validation_macro_ba": 0.9560146127576583,
+          "validation_macro_f1": 0.950034466276391
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "3772b35cb94a50aa2da5561cb5723b6dc3b264e80c5fd3ad4b22c0cba3a25a7b",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/tad_29.npz"
+    },
+    "tad_43": {
+      "method": "tad",
+      "seed": 43,
+      "checkpoint": {
+        "file": "checkpoints/tad_43/model.pt",
+        "sha256": "a49d69ac4c0ae42ee0d3512f3e7521828165a6b00aa8379c4b343401b3d0308c",
+        "original_sha256": "76b9f8c3b30efa50ab20853cc89280d1a76ea8def4480464fcd13d1f3f0e67b4",
+        "tensor_fingerprint_sha256": "0083c5d4e32c9dd2a17b0ed1d1ee51ee3648f140840fbb642d656d4c5f74a9ec"
+      },
+      "directory": "checkpoints/tad_43",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            6.875103476825899
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6955359938022645
+        ],
+        "selection": {
+          "candidates": 148,
+          "threshold": 0.003394546508789009,
+          "validation_macro_ba": 0.9591655830126671,
+          "validation_macro_f1": 0.9538730986417242
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "7128176900e31319486b550d556980055e978b00436de775ba9c9e84203a2147",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration_coefficients": [
+          [
+            6.875103476825899
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6955359938022645
+        ],
+        "selection": {
+          "candidates": 148,
+          "threshold": 0.003394546508789009,
+          "validation_macro_ba": 0.9591655830126671,
+          "validation_macro_f1": 0.9538730986417242
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "7128176900e31319486b550d556980055e978b00436de775ba9c9e84203a2147",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/tad_43.npz"
+    },
+    "lm_17": {
+      "method": "lm",
+      "seed": 17,
+      "checkpoint": {
+        "file": "checkpoints/lm_17/model.pt",
+        "sha256": "4029fa367afdcb825c2b1a4da0620d69a323e597208b89612c2f9f05de726f53",
+        "original_sha256": "92f58ceee551c47963588b03e615308cc3eee4ed71c0f1a895f88d8e3cc5729d",
+        "tensor_fingerprint_sha256": "e8921bfe901bb5f1dd3a805395b21175b21e0cc48ea500239a09c356445f41f6"
+      },
+      "directory": "checkpoints/lm_17",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.7348806330795115
+          ]
+        ],
+        "calibration_intercept": [
+          -0.13764637522615245
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/lm_goal_17/val_evaluation.json",
+        "frozen_source_sha256": "3fa701b354013db0e28e353ce7fe7bc798b62d9b034d851106ab707bac250d23",
+        "selection": {
+          "candidates": 5781,
+          "threshold": 0.2219621241092682,
+          "validation_macro_ba": 0.8508163613542157,
+          "validation_macro_f1": 0.843676573256667
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "28e9a092c6e85286c697eec5e80c979e8c4dc8655f6202bd57c85a7e47256ecf",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            5.658133236187149
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6008539287817047
+        ],
+        "selection": {
+          "candidates": 144,
+          "threshold": 0.005750054253472192,
+          "validation_macro_ba": 0.9400321846113762,
+          "validation_macro_f1": 0.9366091477213929
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "7c49394a3e45aa54c4f06f90dd65924ac94cc9ff7a89539ddee26ca47edf52ef",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/lm_17.npz"
+    },
+    "lm_29": {
+      "method": "lm",
+      "seed": 29,
+      "checkpoint": {
+        "file": "checkpoints/lm_29/model.pt",
+        "sha256": "a9c3ef1dd84a0491ea07a779cf39bf069c90e10deee4a0c6a133c6d6a714667a",
+        "original_sha256": "f13a4f9fc7864201f9b06e9efcd9570ba862b41746835829af4a6f6c2c0422ff",
+        "tensor_fingerprint_sha256": "14cbc47ef0cc6afeac9a652f51bd2af22fdce6de383d33fb3827446abb6a682a"
+      },
+      "directory": "checkpoints/lm_29",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            1.0233948996797393
+          ]
+        ],
+        "calibration_intercept": [
+          -0.20626965686681936
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/lm_goal_29/val_evaluation.json",
+        "frozen_source_sha256": "eead07f8efe7670c4e7f47c2b763630493831950a240c1cb3783ea9aa62a52a2",
+        "selection": {
+          "candidates": 5781,
+          "threshold": -0.6578074097633362,
+          "validation_macro_ba": 0.9059376097582134,
+          "validation_macro_f1": 0.8972229847393995
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "d39d7f7366ab2a491b6ad0266f84d8b76d2bd302c7525b04efebcd129abd8f86",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.091577236865309
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6103156390431597
+        ],
+        "selection": {
+          "candidates": 125,
+          "threshold": 0.0011074829101562766,
+          "validation_macro_ba": 0.9496531655573558,
+          "validation_macro_f1": 0.9428855066327875
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "dba2e2b1eef9bb1cf11d80571ad46959974654febf41158601acfde266c7d9df",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/lm_29.npz"
+    },
+    "lm_43": {
+      "method": "lm",
+      "seed": 43,
+      "checkpoint": {
+        "file": "checkpoints/lm_43/model.pt",
+        "sha256": "dd8274e9e2d4d65cfaa81bba29685757815c9a09bf49b999ebd3250ff7c2c8ea",
+        "original_sha256": "e1ff2eab287d16ed27d573edb2b7e1ba7b383fc73a2213947ac0cd25b770e15e",
+        "tensor_fingerprint_sha256": "de56f0183e93b9b3600ca6cbebbc44d5631b914feb08abb0fd4a101c9db6b988"
+      },
+      "directory": "checkpoints/lm_43",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            1.012273305851269
+          ]
+        ],
+        "calibration_intercept": [
+          -0.667891545501613
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/lm_goal_43/val_evaluation.json",
+        "frozen_source_sha256": "567c38b6674143bc1e87d53cf13e58f5f1f7bb440143c9f1b84216f7390c42aa",
+        "selection": {
+          "candidates": 5781,
+          "threshold": 0.177164688706398,
+          "validation_macro_ba": 0.9274934180499735,
+          "validation_macro_f1": 0.9162162942979944
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "43c483ebe9afb308b9c543352095d096049cb2dd20a1ab7b5b2117a8b8f9d411",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.319712194740176
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6211699890887163
+        ],
+        "selection": {
+          "candidates": 152,
+          "threshold": 0.0032613263811384074,
+          "validation_macro_ba": 0.951539243623638,
+          "validation_macro_f1": 0.9402036644700342
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "69446697039c2c696045c5467fec2ae80431bcdc840a4f2dfba25e06e4c9afae",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/lm_43.npz"
+    },
+    "ce_17": {
+      "method": "ce",
+      "seed": 17,
+      "checkpoint": {
+        "file": "checkpoints/ce_17/model.pt",
+        "sha256": "2af1e9bdb87873142664e3a1cebe318ba28d0040135ff91accbefaf57842656a",
+        "original_sha256": "954f21ca5565c87481c4bc0e138078c28567fbb61e984a3912fc10ee6f1c419c",
+        "tensor_fingerprint_sha256": "ff8d41cbaf7d73031df3b1a30720589b750fc78f28a2929cd9e4b5b7a019ef1a"
+      },
+      "directory": "checkpoints/ce_17",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.885618484261679
+          ]
+        ],
+        "calibration_intercept": [
+          0.04627814774390722
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/ce_goal_17/val_evaluation.json",
+        "frozen_source_sha256": "ce27fb655f4f7151a09f48b7114c48f2deeddb77ec3b63599dc1bc7272686254",
+        "selection": {
+          "candidates": 6078,
+          "threshold": -0.8887863755226135,
+          "validation_macro_ba": 0.9325464248722112,
+          "validation_macro_f1": 0.931793848751251
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "a1fa3088c03ce85a89c5dc8ed98feee9a5b55b38e4ca0a760a0a064f09c570b8",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            7.313288092110882
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6953834023224568
+        ],
+        "selection": {
+          "candidates": 151,
+          "threshold": 0.008381827218191917,
+          "validation_macro_ba": 0.965465023396655,
+          "validation_macro_f1": 0.9605080370183434
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "c2d27850d4d4411b3475926856ea7b76bef24c3fe6ef11188a4d5ceb8d632975",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/ce_17.npz"
+    },
+    "ce_29": {
+      "method": "ce",
+      "seed": 29,
+      "checkpoint": {
+        "file": "checkpoints/ce_29/model.pt",
+        "sha256": "386fe9b2566ba4bbfeebabd9b3467976c74ebffe64511f04d3cf766fa1ed4859",
+        "original_sha256": "c86a525a646738df33c4efd2c8eb34f0509ecb6732db648ff6305c4b72b5c772",
+        "tensor_fingerprint_sha256": "2ca695da1d5f4fe968c0c0f642ce26654f8425e945ed38c882b3b141553c7291"
+      },
+      "directory": "checkpoints/ce_29",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.9037298724682521
+          ]
+        ],
+        "calibration_intercept": [
+          -0.3040750740238733
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/ce_goal_29/val_evaluation.json",
+        "frozen_source_sha256": "3d099f0f1ad220e212870295bfed62f5482d5f4483a707763091d6dbf4270ce2",
+        "selection": {
+          "candidates": 6076,
+          "threshold": -0.5479410886764526,
+          "validation_macro_ba": 0.9409594233051586,
+          "validation_macro_f1": 0.938597257057562
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "8c32568c4afe3f9173fbdf2061961fa8f87568b5230f4f7ed327932e1e4faaa3",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.9498042128731425
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6990531868543375
+        ],
+        "selection": {
+          "candidates": 139,
+          "threshold": 0.009362205505371146,
+          "validation_macro_ba": 0.9636172442636418,
+          "validation_macro_f1": 0.9588076058489158
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "ad14d02363d05a65be7273450f9169cd61b332947684f960a18e529660f8e2c0",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/ce_29.npz"
+    },
+    "ce_43": {
+      "method": "ce",
+      "seed": 43,
+      "checkpoint": {
+        "file": "checkpoints/ce_43/model.pt",
+        "sha256": "181070dc43d5ea07be09005bc3aa6b44f49ca74cd584e67185b1047bccfa722c",
+        "original_sha256": "2eb22f4103e6b13a030a1890d80198e68002ce3000456d255038d22e124c4237",
+        "tensor_fingerprint_sha256": "be95de558e7eeb892a1fb26cdeb7e450ffc0aa75621a5660d581f606e8bbef80"
+      },
+      "directory": "checkpoints/ce_43",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.8499441751293693
+          ]
+        ],
+        "calibration_intercept": [
+          -0.47463490317257684
+        ],
+        "frozen_source_path": "source/output/external_comparison_v4_goal_protocol_20261002/evaluation/ce_goal_43/val_evaluation.json",
+        "frozen_source_sha256": "66e4e5579d74a21a00fe18a57f80171bd8d5f19e928af401439438a34037cd52",
+        "selection": {
+          "candidates": 6082,
+          "threshold": -0.040103696286678314,
+          "validation_macro_ba": 0.9357719010008573,
+          "validation_macro_f1": 0.9332136482684887
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "b00e17c45ceba738de30c24cbe00dfe86a711ba007643a4805d6438888438d4c",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.94156614044302
+          ]
+        ],
+        "calibration_intercept": [
+          -2.709929686406189
+        ],
+        "selection": {
+          "candidates": 138,
+          "threshold": 0.004322586059570366,
+          "validation_macro_ba": 0.9670707291085594,
+          "validation_macro_f1": 0.9611361703001274
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "960fb6a72ebccf618db4e134bc810c7713e3371d18bf2b138f5ffe4ad48ed99e",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/ce_43.npz"
+    },
+    "gm_17": {
+      "method": "gm",
+      "seed": 17,
+      "checkpoint": {
+        "file": "checkpoints/gm_17/model.pt",
+        "sha256": "15b066ab0e079424faf1023ab854958fcbd3eacc23ecbbb353b4b0bcb7952028",
+        "original_sha256": "4a0035de1bb69aafa46537baa25ae350665955db137e8acd8d736c28afb114ab",
+        "tensor_fingerprint_sha256": "ee3069c1ed692c3c983e3a595d220814c7708b07d9f8d0f54342edbc9a0914bf"
+      },
+      "directory": "checkpoints/gm_17",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.7709907230328286
+          ]
+        ],
+        "calibration_intercept": [
+          -0.4376954271701267
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/gm_goal_17/val_evaluation.json",
+        "frozen_source_sha256": "b53b5fd93d0271c414468971625d7e05c42a7747f4c1dc5e64bf205c6916244e",
+        "selection": {
+          "candidates": 5768,
+          "threshold": 0.0029802843928337097,
+          "validation_macro_ba": 0.9156784178406161,
+          "validation_macro_f1": 0.9052365459553342
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "04429780e4826734133a109de6b9086c546c708fa519027dad5feb79689f9ce7",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.772392708332869
+          ]
+        ],
+        "calibration_intercept": [
+          -2.7182109293102643
+        ],
+        "selection": {
+          "candidates": 138,
+          "threshold": 0.00944986979166662,
+          "validation_macro_ba": 0.9625214443922258,
+          "validation_macro_f1": 0.9552689675381579
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "2c6df2fa15d2381587845df162e7c223ed5fe2de25f236ec695f8c36652d02db",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/gm_17.npz"
+    },
+    "gm_29": {
+      "method": "gm",
+      "seed": 29,
+      "checkpoint": {
+        "file": "checkpoints/gm_29/model.pt",
+        "sha256": "6bdb7ce3192bd4750adb9702585d54dfa90d15c2969abf5edb797d8383c782f2",
+        "original_sha256": "eb3824d4cc89ae2955f28b885f74b749ff10f5a42663b0119bfe0b97e40cd84e",
+        "tensor_fingerprint_sha256": "1344cb8f877ccf4e10796228dd4dd95cb693d88f595ffd3cde567b99ec6d24ae"
+      },
+      "directory": "checkpoints/gm_29",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.7704408535177192
+          ]
+        ],
+        "calibration_intercept": [
+          -0.5544573858280379
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/gm_goal_29/val_evaluation.json",
+        "frozen_source_sha256": "727ed7e3344fe65a2ed92c02b144de8a490cf385273bbbaa3bf442b16259d610",
+        "selection": {
+          "candidates": 5768,
+          "threshold": -0.43950867652893066,
+          "validation_macro_ba": 0.9316935693728874,
+          "validation_macro_f1": 0.9224810979170557
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "545a396a694e32de99a33cdb61fba309e62e4581fe0ad272d4d0086c72f89d31",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.990513650616888
+          ]
+        ],
+        "calibration_intercept": [
+          -2.7317719905415982
+        ],
+        "selection": {
+          "candidates": 148,
+          "threshold": 0.012399505615234396,
+          "validation_macro_ba": 0.9611433730450799,
+          "validation_macro_f1": 0.9527277410145646
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "f15bf41f59d66137d56b9337a1547d075bc917a6cf8d8e5f8dae8e3cbf47396a",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/gm_29.npz"
+    },
+    "gm_43": {
+      "method": "gm",
+      "seed": 43,
+      "checkpoint": {
+        "file": "checkpoints/gm_43/model.pt",
+        "sha256": "412f7120e39b75c5306e6bd7d866fb099108c5b72e06c5b5dc97e7d6ba3c32ae",
+        "original_sha256": "2c8b90743c82fdbb8936a205e15026314106bb7aabd212eead941675e045a585",
+        "tensor_fingerprint_sha256": "c6166998f5494422a6e81f56cda70ff1bb8b890da96730b44bea8db19a792b26"
+      },
+      "directory": "checkpoints/gm_43",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.6162554762893696
+          ]
+        ],
+        "calibration_intercept": [
+          -1.0441748525551153
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/gm_goal_43/val_evaluation.json",
+        "frozen_source_sha256": "ec474eb33b4dffa6ae82257b87add389b713adff8fa6467af5c02fed52920ec3",
+        "selection": {
+          "candidates": 5795,
+          "threshold": 0.9161961078643799,
+          "validation_macro_ba": 0.923708333383925,
+          "validation_macro_f1": 0.9166024113495794
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "50da2031bdbb3f37b2ef1250f1f23f5c44570040eb1f10cef14301813d1f2e1b",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.821860354768211
+          ]
+        ],
+        "calibration_intercept": [
+          -2.7054572845378044
+        ],
+        "selection": {
+          "candidates": 158,
+          "threshold": 0.005118451799665191,
+          "validation_macro_ba": 0.961915436778662,
+          "validation_macro_f1": 0.9567704314725414
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "e8c850ac6ca134fc54f26595eef54f8ba6da65429681ab9fd604b925de37d524",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/gm_43.npz"
+    },
+    "idk_17": {
+      "method": "idk",
+      "seed": 17,
+      "checkpoint": {
+        "file": "checkpoints/idk_17/model.pt",
+        "sha256": "4bd7280e66c42a3070f297730b80483632c69f5fad72415a710b9008b4a0cbe4",
+        "original_sha256": "6856f9cb33a242f6978642a8ea5f96da45ba6b9851b7bcdf55c0fa9e297a4a8f",
+        "tensor_fingerprint_sha256": "600c58aa32196e609fb8a2897a15ab2c2e6aa038b601d1be5b291bd227590a60"
+      },
+      "directory": "checkpoints/idk_17",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.6442495702503206
+          ]
+        ],
+        "calibration_intercept": [
+          -0.397375401404406
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/idk_goal_17/val_evaluation.json",
+        "frozen_source_sha256": "9184fd5ca47184e3c63e38ec179bdfa0cec7245c17426c0fcaee501de4304374",
+        "selection": {
+          "candidates": 5726,
+          "threshold": -0.443308562040329,
+          "validation_macro_ba": 0.9141652833283168,
+          "validation_macro_f1": 0.9119926571047726
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "89e217f33a165b60d893e5dfa7b4737cc4ac916dcaefc6e9bd3af3ef11253288",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.4783999119180455
+          ]
+        ],
+        "calibration_intercept": [
+          -2.6207710104435664
+        ],
+        "selection": {
+          "candidates": 146,
+          "threshold": 0.01012763977050779,
+          "validation_macro_ba": 0.9591295763917127,
+          "validation_macro_f1": 0.9525207914471697
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "076d47416fcf0ec94ec47da4d4ce34098c10699c6e310f5dcdf11c325cf5acae",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/idk_17.npz"
+    },
+    "idk_29": {
+      "method": "idk",
+      "seed": 29,
+      "checkpoint": {
+        "file": "checkpoints/idk_29/model.pt",
+        "sha256": "f33b62a156faabbe875fb31c4ed6dc69749fa678d3bac00719812e23b7bd2fd8",
+        "original_sha256": "e28d3cfed4c894473e020f7499f7e5df04df82c323a1a9c1b7e973a2e76cad92",
+        "tensor_fingerprint_sha256": "15ab0bb56c46e0d6575322518ed188d978169676b1b917f76a65346e07fa3c53"
+      },
+      "directory": "checkpoints/idk_29",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.934878612542303
+          ]
+        ],
+        "calibration_intercept": [
+          -0.3796847580538905
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/idk_goal_29/val_evaluation.json",
+        "frozen_source_sha256": "7ddacafb599aec865d0c686af4d0959cb02aa065faa6aadc19aa35de07ca0c03",
+        "selection": {
+          "candidates": 5737,
+          "threshold": -0.016267165541648865,
+          "validation_macro_ba": 0.8973590852708794,
+          "validation_macro_f1": 0.8929941314551553
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "3026119a8053cf164f79ed2c8c102ebb97fab8d58b311310914dc095f63fae91",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.536902063379643
+          ]
+        ],
+        "calibration_intercept": [
+          -2.7026185693998213
+        ],
+        "selection": {
+          "candidates": 160,
+          "threshold": 0.006197891235351527,
+          "validation_macro_ba": 0.9574199331697133,
+          "validation_macro_f1": 0.9485069057675721
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "32ac7efda4ab65a1141f548e58c6baffa2f01c19cfe09def60ec1b14a77cc438",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/idk_29.npz"
+    },
+    "idk_43": {
+      "method": "idk",
+      "seed": 43,
+      "checkpoint": {
+        "file": "checkpoints/idk_43/model.pt",
+        "sha256": "3d29957505088a5d09e70975fe74a3b172a98eb2acd965863581b906b932d16a",
+        "original_sha256": "32ef090fd8601e7ca80b0e2cc9b4a0f3838c26069e91a2806dc58d1a198ca3b5",
+        "tensor_fingerprint_sha256": "e43a11d3e5550bb389d3c171af03e9410573ff2bc420452c9d268a0bd934dd91"
+      },
+      "directory": "checkpoints/idk_43",
+      "calibration": {
+        "calibration_coefficients": [
+          [
+            0.8179445292117198
+          ]
+        ],
+        "calibration_intercept": [
+          -0.5280181745049091
+        ],
+        "frozen_source_path": "source/output/external_comparison_v5_representative_20261003/evaluation/idk_goal_43/val_evaluation.json",
+        "frozen_source_sha256": "fde5e8fa5ab66b0d20fa69fa5c1d0cac159f32631c232d70e25f92aff439330f",
+        "selection": {
+          "candidates": 5725,
+          "threshold": -0.08301322162151337,
+          "validation_macro_ba": 0.9161334108863866,
+          "validation_macro_f1": 0.9146728277907763
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "095c068e737b9b5de1b8cf6753073d3bedb117cad17f625a0e2de3bf6a90a872",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "auxiliary_calibration": {
+        "calibration": "Logistic C=1 fitted to combined SMOKE validation tasks only",
+        "calibration_coefficients": [
+          [
+            6.493969251157516
+          ]
+        ],
+        "calibration_intercept": [
+          -2.619253960706205
+        ],
+        "selection": {
+          "candidates": 156,
+          "threshold": 0.010728530883789111,
+          "validation_macro_ba": 0.9570301201375933,
+          "validation_macro_f1": 0.9504969612086621
+        },
+        "test_used": false,
+        "threshold_validation_conditions": [
+          "clean",
+          "gps_30",
+          "sampling_4",
+          "outage_30"
+        ],
+        "validation_calibration_is_in_sample": true,
+        "validation_labels_hash": "f3290be9ca4c63dbd2d681d47417697fc2ebe0ffacb9b653b5211dbe10d822a2",
+        "validation_score_hash": "604986b2632183a841ee042a510726771cf35162e02093f1ab30faa25ad5b12b",
+        "validation_task_ids_hash": "d40a59998e261f2eebfe5a24b2e1c4b1180de75e3e923df73740c01c339ebbf3"
+      },
+      "reference": "reference/idk_43.npz"
+    }
+  }
+}

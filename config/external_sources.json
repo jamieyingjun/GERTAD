@@ -1,0 +1,12 @@
+[
+  {
+    "path": "third_party/CETrajAD/LSTM_model.py",
+    "url": "https://raw.githubusercontent.com/ShuruiCao/comp-ensemble-ad/c10b5e86ab94d16f2878527e7b63d0489ea5777a/Model/LSTM_model.py",
+    "sha256": "847f99d61b3e0c2100707840b6b69c13f2f24a248caf5e26516b85f49f2c19b8"
+  },
+  {
+    "path": "third_party/LMTAD/code/models/LMTAD.py",
+    "url": "https://raw.githubusercontent.com/jonathankabala/LMTAD/80bb89a8ea108db8f13cb9959826424e9c45f41c/code/models/LMTAD.py",
+    "sha256": "0aabecb6b22c83d9a9e3b6b7123f4be3210aae58c93ded67eb76e854b682b68c"
+  }
+]

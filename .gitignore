@@ -1,0 +1,48 @@
+# Local environments and interpreter caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+# Credentials and editor settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+# Local output, temporary files and build products
+/results/
+/cache/
+/.cache/
+/temp/
+/tmp/
+/build/
+/dist/
+*.egg-info/
+*.log
+*.tmp
+*.bak
+*~
+*.aux
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Separately obtained inputs and original upstream sources
+/data/worlds.json.gz
+/data/geolife/
+*.partial
+/third_party/CETrajAD/LSTM_model.py
+/third_party/LMTAD/code/models/LMTAD.py

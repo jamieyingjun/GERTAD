@@ -1,0 +1,2064 @@
+{
+  "status": "PASS",
+  "jobs": 15,
+  "run_id": "20261015T054141_911671Z",
+  "canonical_prediction_arrays_exact": true,
+  "maximum_primary_and_common_aggregate_difference": 0,
+  "records": [
+    {
+      "status": "PASS",
+      "method": "ce",
+      "display_name": "CETrajAD GoalAdapter",
+      "seed": 17,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "2af1e9bdb87873142664e3a1cebe318ba28d0040135ff91accbefaf57842656a",
+      "original_checkpoint_sha256": "954f21ca5565c87481c4bc0e138078c28567fbb61e984a3912fc10ee6f1c419c",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9453945360186218,
+        "ba": 0.9388478574174709,
+        "auroc": 0.9826754224592356,
+        "ap": 0.9804138328327242,
+        "accuracy": 0.9438588261217009,
+        "brier": 0.04842109583556087,
+        "ece": 0.03275931940214666,
+        "pair": 0.8606731254235914,
+        "concordance": 0.9849878072097127,
+        "visit": 0.9694616067661166,
+        "first_time_mae_s": 9.224664633924311,
+        "accessibility_mae_m": 12.209489779038863,
+        "order": 0.9407201999873078,
+        "severe_f1": 0.9054319125432542,
+        "severe_ba": 0.8973589397377115,
+        "primary_four_metric_mean": 0.9618329121820131
+      },
+      "common_aggregate": {
+        "f1": 0.9701069402731369,
+        "ba": 0.9731814090973518,
+        "auroc": 0.9811800288408506,
+        "ap": 0.9704672022225336,
+        "accuracy": 0.9734711946971806,
+        "brier": 0.039792727368224964,
+        "ece": 0.060027051542917924,
+        "pair": 0.9411416562502418,
+        "concordance": 0.9767510736524155,
+        "visit": 0.9694616067661166,
+        "first_time_mae_s": 9.224664633924311,
+        "accessibility_mae_m": 12.209489779038863,
+        "order": 0.9407201999873078,
+        "severe_f1": 0.923926669727803,
+        "severe_ba": 0.9304408213025693,
+        "primary_four_metric_mean": 0.9737338951084683
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "ce",
+      "display_name": "CETrajAD GoalAdapter",
+      "seed": 29,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "386fe9b2566ba4bbfeebabd9b3467976c74ebffe64511f04d3cf766fa1ed4859",
+      "original_checkpoint_sha256": "c86a525a646738df33c4efd2c8eb34f0509ecb6732db648ff6305c4b72b5c772",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9495831482711239,
+        "ba": 0.9457828654326348,
+        "auroc": 0.9847906154655064,
+        "ap": 0.9815633016638636,
+        "accuracy": 0.949749949266059,
+        "brier": 0.04120524479203796,
+        "ece": 0.026647436423083082,
+        "pair": 0.8687917125427916,
+        "concordance": 0.9856760537021484,
+        "visit": 0.9711274399746469,
+        "first_time_mae_s": 9.171774701638656,
+        "accessibility_mae_m": 12.11976671218872,
+        "order": 0.9405369160094704,
+        "severe_f1": 0.9086987576845731,
+        "severe_ba": 0.90388912318402,
+        "primary_four_metric_mean": 0.9654299827082822
+      },
+      "common_aggregate": {
+        "f1": 0.9722659300848133,
+        "ba": 0.974467606908847,
+        "auroc": 0.9816969905508486,
+        "ap": 0.9712315440342493,
+        "accuracy": 0.9750824502510322,
+        "brier": 0.04094707355005748,
+        "ece": 0.06337744795429973,
+        "pair": 0.9447553271084991,
+        "concordance": 0.9782308454797733,
+        "visit": 0.9711274399746469,
+        "first_time_mae_s": 9.171774701638656,
+        "accessibility_mae_m": 12.11976671218872,
+        "order": 0.9405369160094704,
+        "severe_f1": 0.9278702499127569,
+        "severe_ba": 0.9309820530810498,
+        "primary_four_metric_mean": 0.9749155178946896
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "ce",
+      "display_name": "CETrajAD GoalAdapter",
+      "seed": 43,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "181070dc43d5ea07be09005bc3aa6b44f49ca74cd584e67185b1047bccfa722c",
+      "original_checkpoint_sha256": "2eb22f4103e6b13a030a1890d80198e68002ce3000456d255038d22e124c4237",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9427005627783884,
+        "ba": 0.9399705887296907,
+        "auroc": 0.9844369263427016,
+        "ap": 0.9814147961320333,
+        "accuracy": 0.9449105480028996,
+        "brier": 0.04397076519080772,
+        "ece": 0.023363766182611642,
+        "pair": 0.8473537911103722,
+        "concordance": 0.9854721171304298,
+        "visit": 0.9710869253371903,
+        "first_time_mae_s": 9.072762099179355,
+        "accessibility_mae_m": 11.638893799348311,
+        "order": 0.9375617027629647,
+        "severe_f1": 0.8996915155706817,
+        "severe_ba": 0.897388350454808,
+        "primary_four_metric_mean": 0.9621307184957035
+      },
+      "common_aggregate": {
+        "f1": 0.971566250885783,
+        "ba": 0.9742167477138161,
+        "auroc": 0.9812929522909772,
+        "ap": 0.9705159800041272,
+        "accuracy": 0.9744219388072751,
+        "brier": 0.04148079789373607,
+        "ece": 0.06279778385293532,
+        "pair": 0.9427618981290244,
+        "concordance": 0.9769228509691911,
+        "visit": 0.9710869253371903,
+        "first_time_mae_s": 9.072762099179355,
+        "accessibility_mae_m": 11.638893799348311,
+        "order": 0.9375617027629647,
+        "severe_f1": 0.9277181007519167,
+        "severe_ba": 0.9330363406606852,
+        "primary_four_metric_mean": 0.974397982723676
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "gm",
+      "display_name": "GM-VSAE GoalAdapter",
+      "seed": 17,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "15b066ab0e079424faf1023ab854958fcbd3eacc23ecbbb353b4b0bcb7952028",
+      "original_checkpoint_sha256": "4a0035de1bb69aafa46537baa25ae350665955db137e8acd8d736c28afb114ab",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9150663273905321,
+        "ba": 0.9228732225849928,
+        "auroc": 0.9805065305241424,
+        "ap": 0.9708730721921662,
+        "accuracy": 0.9347727313798031,
+        "brier": 0.05596617942317155,
+        "ece": 0.04795038606486959,
+        "pair": 0.7558763546902085,
+        "concordance": 0.9851332817119594,
+        "visit": 0.9666754885151893,
+        "first_time_mae_s": 9.261361328038303,
+        "accessibility_mae_m": 12.590025685050271,
+        "order": 0.9313743510113828,
+        "severe_f1": 0.8766437484509315,
+        "severe_ba": 0.8852551680175416,
+        "primary_four_metric_mean": 0.9473297881729583
+      },
+      "common_aggregate": {
+        "f1": 0.9629685568341373,
+        "ba": 0.9686222958665908,
+        "auroc": 0.9770702327317309,
+        "ap": 0.9576163924474961,
+        "accuracy": 0.9684067980666835,
+        "brier": 0.04670689235613605,
+        "ece": 0.06193949219941799,
+        "pair": 0.9317976971839573,
+        "concordance": 0.9743475399210756,
+        "visit": 0.9666754885151893,
+        "first_time_mae_s": 9.261361328038303,
+        "accessibility_mae_m": 12.590025685050271,
+        "order": 0.9313743510113828,
+        "severe_f1": 0.9225500427087484,
+        "severe_ba": 0.928790889510852,
+        "primary_four_metric_mean": 0.9665693694699887
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "gm",
+      "display_name": "GM-VSAE GoalAdapter",
+      "seed": 29,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "6bdb7ce3192bd4750adb9702585d54dfa90d15c2969abf5edb797d8383c782f2",
+      "original_checkpoint_sha256": "eb3824d4cc89ae2955f28b885f74b749ff10f5a42663b0119bfe0b97e40cd84e",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9349843853712797,
+        "ba": 0.9380982535306012,
+        "auroc": 0.9818584459928221,
+        "ap": 0.9757098414444833,
+        "accuracy": 0.9443938297435236,
+        "brier": 0.048318305013814795,
+        "ece": 0.03641621912340238,
+        "pair": 0.8270783982141832,
+        "concordance": 0.9848500806981715,
+        "visit": 0.9637678020967944,
+        "first_time_mae_s": 9.412352150136774,
+        "accessibility_mae_m": 12.419914072210139,
+        "order": 0.9323060523189427,
+        "severe_f1": 0.8935641701243848,
+        "severe_ba": 0.8988683954342984,
+        "primary_four_metric_mean": 0.9576627315847965
+      },
+      "common_aggregate": {
+        "f1": 0.9628850435329519,
+        "ba": 0.9692818461876519,
+        "auroc": 0.9759809391707767,
+        "ap": 0.9530596691814583,
+        "accuracy": 0.9680274476261155,
+        "brier": 0.047635899710065994,
+        "ece": 0.06237050846374244,
+        "pair": 0.9318921129642636,
+        "concordance": 0.9727395877669903,
+        "visit": 0.9637678020967944,
+        "first_time_mae_s": 9.412352150136774,
+        "accessibility_mae_m": 12.419914072210139,
+        "order": 0.9323060523189427,
+        "severe_f1": 0.9213499810920129,
+        "severe_ba": 0.9298758538348858,
+        "primary_four_metric_mean": 0.9653018745182097
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "gm",
+      "display_name": "GM-VSAE GoalAdapter",
+      "seed": 43,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "412f7120e39b75c5306e6bd7d866fb099108c5b72e06c5b5dc97e7d6ba3c32ae",
+      "original_checkpoint_sha256": "2c8b90743c82fdbb8936a205e15026314106bb7aabd212eead941675e045a585",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9321621420056531,
+        "ba": 0.9337402058294139,
+        "auroc": 0.9823062937998818,
+        "ap": 0.9765593299843158,
+        "accuracy": 0.9424880454748198,
+        "brier": 0.048018601559261236,
+        "ece": 0.038879433118289924,
+        "pair": 0.7945230469085742,
+        "concordance": 0.9846500582211466,
+        "visit": 0.9650116913049238,
+        "first_time_mae_s": 9.541640780188821,
+        "accessibility_mae_m": 13.576842308044434,
+        "order": 0.9338520691784901,
+        "severe_f1": 0.8939741597668569,
+        "severe_ba": 0.8953720354913568,
+        "primary_four_metric_mean": 0.9561919929048162
+      },
+      "common_aggregate": {
+        "f1": 0.9625145388601738,
+        "ba": 0.967383305881167,
+        "auroc": 0.9764945143445748,
+        "ap": 0.958121106208369,
+        "accuracy": 0.9668974246611852,
+        "brier": 0.04643170756818975,
+        "ece": 0.06298206797565527,
+        "pair": 0.9248913796337243,
+        "concordance": 0.9711075609434779,
+        "visit": 0.9650116913049238,
+        "first_time_mae_s": 9.541640780188821,
+        "accessibility_mae_m": 13.576842308044434,
+        "order": 0.9338520691784901,
+        "severe_f1": 0.9249898359187223,
+        "severe_ba": 0.9311076090347408,
+        "primary_four_metric_mean": 0.9661283663235711
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "idk",
+      "display_name": "IDK GoalAdapter",
+      "seed": 17,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "4bd7280e66c42a3070f297730b80483632c69f5fad72415a710b9008b4a0cbe4",
+      "original_checkpoint_sha256": "6856f9cb33a242f6978642a8ea5f96da45ba6b9851b7bcdf55c0fa9e297a4a8f",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9318351946250037,
+        "ba": 0.938382160597723,
+        "auroc": 0.9770873126813533,
+        "ap": 0.9687757565639814,
+        "accuracy": 0.9410195248451302,
+        "brier": 0.052914382764083404,
+        "ece": 0.04398914064170876,
+        "pair": 0.8357415759677841,
+        "concordance": 0.9834860386975444,
+        "visit": 0.9616347152877887,
+        "first_time_mae_s": 9.283444372090427,
+        "accessibility_mae_m": 12.925117752768777,
+        "order": 0.927482108501589,
+        "severe_f1": 0.8919478846371622,
+        "severe_ba": 0.8996493641157413,
+        "primary_four_metric_mean": 0.9540201061170153
+      },
+      "common_aggregate": {
+        "f1": 0.9629506550804127,
+        "ba": 0.968064863542105,
+        "auroc": 0.9761740797372706,
+        "ap": 0.9573741774622893,
+        "accuracy": 0.9671519374095421,
+        "brier": 0.04853564475971734,
+        "ece": 0.0640035001883362,
+        "pair": 0.9310496630019308,
+        "concordance": 0.9717064633281512,
+        "visit": 0.9616347152877887,
+        "first_time_mae_s": 9.283444372090427,
+        "accessibility_mae_m": 12.925117752768777,
+        "order": 0.927482108501589,
+        "severe_f1": 0.9232482979604599,
+        "severe_ba": 0.9297422108160147,
+        "primary_four_metric_mean": 0.9661409439555193
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "idk",
+      "display_name": "IDK GoalAdapter",
+      "seed": 29,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "f33b62a156faabbe875fb31c4ed6dc69749fa678d3bac00719812e23b7bd2fd8",
+      "original_checkpoint_sha256": "e28d3cfed4c894473e020f7499f7e5df04df82c323a1a9c1b7e973a2e76cad92",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9041965205779053,
+        "ba": 0.9088538131314844,
+        "auroc": 0.973841656906643,
+        "ap": 0.9651361128275312,
+        "accuracy": 0.9242257070858325,
+        "brier": 0.06337546366134586,
+        "ece": 0.04264006257151608,
+        "pair": 0.7021249645264244,
+        "concordance": 0.9788544738924422,
+        "visit": 0.9569479672918756,
+        "first_time_mae_s": 9.209287144921042,
+        "accessibility_mae_m": 14.803656448017467,
+        "order": 0.9091410429614343,
+        "severe_f1": 0.8724771261250361,
+        "severe_ba": 0.8773043746669427,
+        "primary_four_metric_mean": 0.9380070258608909
+      },
+      "common_aggregate": {
+        "f1": 0.954251516488062,
+        "ba": 0.9580210509930047,
+        "auroc": 0.9678693653497782,
+        "ap": 0.9438864886628018,
+        "accuracy": 0.9588657283914022,
+        "brier": 0.0547455434501384,
+        "ece": 0.06602758528646284,
+        "pair": 0.9154017070305914,
+        "concordance": 0.9665147408935089,
+        "visit": 0.9569479672918756,
+        "first_time_mae_s": 9.209287144921042,
+        "accessibility_mae_m": 14.803656448017467,
+        "order": 0.9091410429614343,
+        "severe_f1": 0.9197920088532485,
+        "severe_ba": 0.9263642952452518,
+        "primary_four_metric_mean": 0.9560071053734117
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "idk",
+      "display_name": "IDK GoalAdapter",
+      "seed": 43,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "3d29957505088a5d09e70975fe74a3b172a98eb2acd965863581b906b932d16a",
+      "original_checkpoint_sha256": "32ef090fd8601e7ca80b0e2cc9b4a0f3838c26069e91a2806dc58d1a198ca3b5",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9126141736763587,
+        "ba": 0.9098705544802429,
+        "auroc": 0.9774269345702122,
+        "ap": 0.9682132712570116,
+        "accuracy": 0.9263458523847636,
+        "brier": 0.06267938179203382,
+        "ece": 0.041553938668627596,
+        "pair": 0.7483723184454195,
+        "concordance": 0.983082077464276,
+        "visit": 0.9564328157518144,
+        "first_time_mae_s": 10.813724236054854,
+        "accessibility_mae_m": 13.436072392897172,
+        "order": 0.9106150849248619,
+        "severe_f1": 0.878039171954585,
+        "severe_ba": 0.8743012135430386,
+        "primary_four_metric_mean": 0.9420312334959563
+      },
+      "common_aggregate": {
+        "f1": 0.9556784367022267,
+        "ba": 0.9613171616543635,
+        "auroc": 0.96981291324158,
+        "ap": 0.9456128079513046,
+        "accuracy": 0.9605309152632711,
+        "brier": 0.05354047595785656,
+        "ece": 0.06506153164914909,
+        "pair": 0.9196900379672819,
+        "concordance": 0.9668519087857959,
+        "visit": 0.9564328157518144,
+        "first_time_mae_s": 10.813724236054854,
+        "accessibility_mae_m": 13.436072392897172,
+        "order": 0.9106150849248619,
+        "severe_f1": 0.9200424393080776,
+        "severe_ba": 0.9264197154449076,
+        "primary_four_metric_mean": 0.9581053298873687
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "lm",
+      "display_name": "LM-TAD GoalAdapter",
+      "seed": 17,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "4029fa367afdcb825c2b1a4da0620d69a323e597208b89612c2f9f05de726f53",
+      "original_checkpoint_sha256": "92f58ceee551c47963588b03e615308cc3eee4ed71c0f1a895f88d8e3cc5729d",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.8589735758263991,
+        "ba": 0.8689406658519366,
+        "auroc": 0.9594732569733758,
+        "ap": 0.9490142429652271,
+        "accuracy": 0.8847780065326039,
+        "brier": 0.08715419444915946,
+        "ece": 0.06220765583478962,
+        "pair": 0.589339926409247,
+        "concordance": 0.9762256386707062,
+        "visit": 0.9494880184959595,
+        "first_time_mae_s": 9.952326384457676,
+        "accessibility_mae_m": 12.738901094956832,
+        "order": 0.901355054405849,
+        "severe_f1": 0.827139993016463,
+        "severe_ba": 0.8336021605484136,
+        "primary_four_metric_mean": 0.9091004354042347
+      },
+      "common_aggregate": {
+        "f1": 0.9499477244963527,
+        "ba": 0.954386268680581,
+        "auroc": 0.9623181623684686,
+        "ap": 0.9324465804871267,
+        "accuracy": 0.9543312094971564,
+        "brier": 0.06383833318904673,
+        "ece": 0.07352188916504088,
+        "pair": 0.9014009005887126,
+        "concordance": 0.95963262308622,
+        "visit": 0.9494880184959595,
+        "first_time_mae_s": 9.952326384457676,
+        "accessibility_mae_m": 12.738901094956832,
+        "order": 0.901355054405849,
+        "severe_f1": 0.9120112890298966,
+        "severe_ba": 0.9157609888151421,
+        "primary_four_metric_mean": 0.9497746840081323
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "lm",
+      "display_name": "LM-TAD GoalAdapter",
+      "seed": 29,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "a9c3ef1dd84a0491ea07a779cf39bf069c90e10deee4a0c6a133c6d6a714667a",
+      "original_checkpoint_sha256": "f13a4f9fc7864201f9b06e9efcd9570ba862b41746835829af4a6f6c2c0422ff",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9160511246100296,
+        "ba": 0.9185277718873782,
+        "auroc": 0.974555654241426,
+        "ap": 0.9656855272572655,
+        "accuracy": 0.9296115503760581,
+        "brier": 0.06254108505946744,
+        "ece": 0.044757092963333404,
+        "pair": 0.7426414317976129,
+        "concordance": 0.9790734483621238,
+        "visit": 0.9483312162620584,
+        "first_time_mae_s": 8.96005059372295,
+        "accessibility_mae_m": 13.0583852854642,
+        "order": 0.908833932693583,
+        "severe_f1": 0.8756623233623142,
+        "severe_ba": 0.8757830903342917,
+        "primary_four_metric_mean": 0.9437050194990249
+      },
+      "common_aggregate": {
+        "f1": 0.9533163304354207,
+        "ba": 0.9561893254152043,
+        "auroc": 0.9620968616194538,
+        "ap": 0.9360370527326076,
+        "accuracy": 0.9586932322717463,
+        "brier": 0.059162809661703356,
+        "ece": 0.06898636566149056,
+        "pair": 0.9045833829558414,
+        "concordance": 0.9584873842841063,
+        "visit": 0.9483312162620584,
+        "first_time_mae_s": 8.96005059372295,
+        "accessibility_mae_m": 13.0583852854642,
+        "order": 0.908833932693583,
+        "severe_f1": 0.9148117964257805,
+        "severe_ba": 0.9185325491790699,
+        "primary_four_metric_mean": 0.9519098925506717
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "lm",
+      "display_name": "LM-TAD GoalAdapter",
+      "seed": 43,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "dd8274e9e2d4d65cfaa81bba29685757815c9a09bf49b999ebd3250ff7c2c8ea",
+      "original_checkpoint_sha256": "e1ff2eab287d16ed27d573edb2b7e1ba7b383fc73a2213947ac0cd25b770e15e",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.926297169376681,
+        "ba": 0.9294565782983196,
+        "auroc": 0.9804531788722646,
+        "ap": 0.9711917469879793,
+        "accuracy": 0.9371408548860352,
+        "brier": 0.05343659664582035,
+        "ece": 0.04636480692103879,
+        "pair": 0.7929213480284684,
+        "concordance": 0.9856998381591624,
+        "visit": 0.9525358240158298,
+        "first_time_mae_s": 9.712234193628484,
+        "accessibility_mae_m": 13.01532420245084,
+        "order": 0.9162457811549474,
+        "severe_f1": 0.8778983295324937,
+        "severe_ba": 0.8812127407722561,
+        "primary_four_metric_mean": 0.9518496683838111
+      },
+      "common_aggregate": {
+        "f1": 0.9540417510675088,
+        "ba": 0.9582716131319163,
+        "auroc": 0.968131549241683,
+        "ap": 0.9448154217433976,
+        "accuracy": 0.9595566325716098,
+        "brier": 0.053929702553764065,
+        "ece": 0.06853160854213111,
+        "pair": 0.9054514474136998,
+        "concordance": 0.9630425836374576,
+        "visit": 0.9525358240158298,
+        "first_time_mae_s": 9.712234193628484,
+        "accessibility_mae_m": 13.01532420245084,
+        "order": 0.9162457811549474,
+        "severe_f1": 0.9142404846514371,
+        "severe_ba": 0.9187350691136065,
+        "primary_four_metric_mean": 0.9563150837961264
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "tad",
+      "display_name": "GERTAD",
+      "seed": 17,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "1a29531c811609157dd219a1d139f5c778a1515d10304b17d4e496ed5ace6fc6",
+      "original_checkpoint_sha256": "f3694a6908b1dc004d685deeabccfa97b5e2a4a34a78154f34dbe7de86b9877d",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9630854992504706,
+        "ba": 0.9664942729393382,
+        "auroc": 0.9776354041173213,
+        "ap": 0.9619054138710971,
+        "accuracy": 0.9671187728082784,
+        "brier": 0.04434452860185792,
+        "ece": 0.05800164502391725,
+        "pair": 0.929547282778557,
+        "concordance": 0.9736388224019461,
+        "visit": 0.9685496102101964,
+        "first_time_mae_s": 17.729467912153765,
+        "accessibility_mae_m": 12.506242058493875,
+        "order": 0.9048216899516738,
+        "severe_f1": 0.9197436138391744,
+        "severe_ba": 0.9246651721143926,
+        "primary_four_metric_mean": 0.9672801475445568
+      },
+      "common_aggregate": {
+        "f1": 0.9630854992504706,
+        "ba": 0.9664942729393382,
+        "auroc": 0.9776354041173213,
+        "ap": 0.9619054138710971,
+        "accuracy": 0.9671187728082784,
+        "brier": 0.04434452860185792,
+        "ece": 0.05800164502391725,
+        "pair": 0.929547282778557,
+        "concordance": 0.9736388224019461,
+        "visit": 0.9685496102101964,
+        "first_time_mae_s": 17.729467912153765,
+        "accessibility_mae_m": 12.506242058493875,
+        "order": 0.9048216899516738,
+        "severe_f1": 0.9197436138391744,
+        "severe_ba": 0.9246651721143926,
+        "primary_four_metric_mean": 0.9672801475445568
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "tad",
+      "display_name": "GERTAD",
+      "seed": 29,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "d2550239fce63a420f728a64ded4fe5014ea12b63f20d8a376cfb77e0391fe18",
+      "original_checkpoint_sha256": "1c49c5e3bee0e7735c351cff5159116190bcab139f175b27714ad62891818f5d",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9615907355457004,
+        "ba": 0.9632868482219262,
+        "auroc": 0.975360618403415,
+        "ap": 0.9590291775388594,
+        "accuracy": 0.9653124381466497,
+        "brier": 0.0488119393488029,
+        "ece": 0.06403861866282451,
+        "pair": 0.9194406950393232,
+        "concordance": 0.9700821574338586,
+        "visit": 0.9632982735518637,
+        "first_time_mae_s": 16.15436974438754,
+        "accessibility_mae_m": 11.473922794515437,
+        "order": 0.898197520428485,
+        "severe_f1": 0.91808461531932,
+        "severe_ba": 0.9219036975079029,
+        "primary_four_metric_mean": 0.9648168449274752
+      },
+      "common_aggregate": {
+        "f1": 0.9615907355457004,
+        "ba": 0.9632868482219262,
+        "auroc": 0.975360618403415,
+        "ap": 0.9590291775388594,
+        "accuracy": 0.9653124381466497,
+        "brier": 0.0488119393488029,
+        "ece": 0.06403861866282451,
+        "pair": 0.9194406950393232,
+        "concordance": 0.9700821574338586,
+        "visit": 0.9632982735518637,
+        "first_time_mae_s": 16.15436974438754,
+        "accessibility_mae_m": 11.473922794515437,
+        "order": 0.898197520428485,
+        "severe_f1": 0.91808461531932,
+        "severe_ba": 0.9219036975079029,
+        "primary_four_metric_mean": 0.9648168449274752
+      }
+    },
+    {
+      "status": "PASS",
+      "method": "tad",
+      "display_name": "GERTAD",
+      "seed": 43,
+      "fresh_model_inference": true,
+      "training_or_calibration_refit": false,
+      "timing_benchmark": false,
+      "physical_observations": 2981,
+      "goal_queries": 38390,
+      "checkpoint_sha256": "a49d69ac4c0ae42ee0d3512f3e7521828165a6b00aa8379c4b343401b3d0308c",
+      "original_checkpoint_sha256": "76b9f8c3b30efa50ab20853cc89280d1a76ea8def4480464fcd13d1f3f0e67b4",
+      "prediction_comparison": {
+        "ids": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "query_observation_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "goal_indices": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "components": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "decisions": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "threshold": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "events": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "zero": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "mean": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "conditional": {
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "aggregate_differences": {
+        "primary": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        },
+        "common": {
+          "f1": 0.0,
+          "ba": 0.0,
+          "auroc": 0.0,
+          "ap": 0.0,
+          "accuracy": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "pair": 0.0,
+          "concordance": 0.0,
+          "visit": 0.0,
+          "first_time_mae_s": 0.0,
+          "accessibility_mae_m": 0.0,
+          "order": 0.0,
+          "severe_f1": 0.0,
+          "severe_ba": 0.0,
+          "primary_four_metric_mean": 0.0
+        }
+      },
+      "primary_aggregate": {
+        "f1": 0.9622301988564985,
+        "ba": 0.9662552502706081,
+        "auroc": 0.9776136504566353,
+        "ap": 0.9638712624591167,
+        "accuracy": 0.9667512317903075,
+        "brier": 0.044777696843718504,
+        "ece": 0.06012899782606387,
+        "pair": 0.9261023956866076,
+        "concordance": 0.9723359451984819,
+        "visit": 0.9687949292152364,
+        "first_time_mae_s": 14.933318831703879,
+        "accessibility_mae_m": 12.357628172094172,
+        "order": 0.9100135060842416,
+        "severe_f1": 0.9200583784871843,
+        "severe_ba": 0.9263266999648473,
+        "primary_four_metric_mean": 0.9674925905107147
+      },
+      "common_aggregate": {
+        "f1": 0.9622301988564985,
+        "ba": 0.9662552502706081,
+        "auroc": 0.9776136504566353,
+        "ap": 0.9638712624591167,
+        "accuracy": 0.9667512317903075,
+        "brier": 0.044777696843718504,
+        "ece": 0.06012899782606387,
+        "pair": 0.9261023956866076,
+        "concordance": 0.9723359451984819,
+        "visit": 0.9687949292152364,
+        "first_time_mae_s": 14.933318831703879,
+        "accessibility_mae_m": 12.357628172094172,
+        "order": 0.9100135060842416,
+        "severe_f1": 0.9200583784871843,
+        "severe_ba": 0.9263266999648473,
+        "primary_four_metric_mean": 0.9674925905107147
+      }
+    }
+  ]
+}

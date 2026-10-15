@@ -1,0 +1,105 @@
+{
+  "author_encoder_sha256": "847f99d61b3e0c2100707840b6b69c13f2f24a248caf5e26516b85f49f2c19b8",
+  "specs": [
+    {
+      "view": "route",
+      "hidden_size": 16,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 16,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_route_16.pt",
+      "history": "CE_17_route_16_history.json"
+    },
+    {
+      "view": "route",
+      "hidden_size": 64,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 64,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_route_64.pt",
+      "history": "CE_17_route_64_history.json"
+    },
+    {
+      "view": "route",
+      "hidden_size": 128,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 128,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_route_128.pt",
+      "history": "CE_17_route_128_history.json"
+    },
+    {
+      "view": "speed",
+      "hidden_size": 16,
+      "config": {
+        "input_size": 1,
+        "hidden_size": 16,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_speed_16.pt",
+      "history": "CE_17_speed_16_history.json"
+    },
+    {
+      "view": "speed",
+      "hidden_size": 64,
+      "config": {
+        "input_size": 1,
+        "hidden_size": 64,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_speed_64.pt",
+      "history": "CE_17_speed_64_history.json"
+    },
+    {
+      "view": "speed",
+      "hidden_size": 128,
+      "config": {
+        "input_size": 1,
+        "hidden_size": 128,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_speed_128.pt",
+      "history": "CE_17_speed_128_history.json"
+    },
+    {
+      "view": "shape",
+      "hidden_size": 16,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 16,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_shape_16.pt",
+      "history": "CE_17_shape_16_history.json"
+    },
+    {
+      "view": "shape",
+      "hidden_size": 64,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 64,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_shape_64.pt",
+      "history": "CE_17_shape_64_history.json"
+    },
+    {
+      "view": "shape",
+      "hidden_size": 128,
+      "config": {
+        "input_size": 2,
+        "hidden_size": 128,
+        "num_layers": 2
+      },
+      "checkpoint": "CE_17_shape_128.pt",
+      "history": "CE_17_shape_128_history.json"
+    }
+  ],
+  "data_source_fingerprint": "95e3f5440387933f6356a0ef69d8d4356c378e83e62392c989cf868a72454c82"
+}

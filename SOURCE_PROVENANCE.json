@@ -1,0 +1,307 @@
+{
+  "algorithm_units": [
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/development_loss.py",
+      "sha256": "53ad7558456230b0f1563bbf58930e62d8fcf6c1d9e1fce285ee7e318a6812d8",
+      "units": [
+        "valid_pair_probs"
+      ],
+      "unit_ast_sha256": {
+        "valid_pair_probs": "53caa39f94c86849fb4225e9ace42eea4c948ce03f1dffe2465e125602a5acc7"
+      }
+    },
+    {
+      "source": "output/external_comparison_v2_20260930/run_comparison.py",
+      "sha256": "3a569c4108968a32f4846b4bee7dc1cb4014cc5940801814fe24011b01f1221f",
+      "units": [
+        "cap_sequence",
+        "views"
+      ],
+      "unit_ast_sha256": {
+        "cap_sequence": "1327c04ad643bd33fda6745254b3419e8370d34e6a0d7522994c4d3f6a4fb6d1",
+        "views": "b8e0e95d50e7b1b0a0662d2b57f1b0fc9eaecd4198ba37891d6f004a324e60c4"
+      }
+    },
+    {
+      "source": "output/goal_guided_event_recovery_v1_20261002/prepare.py",
+      "sha256": "aab8a9ab41e672672912352182c7e0528a8d6b187e2f03b46a4a0f35b10bc0b2",
+      "units": [
+        "goal_encoding"
+      ],
+      "unit_ast_sha256": {
+        "goal_encoding": "9d68b6f3f0fe676c71cc5a7df3884bbd35b62c6c1d43fa33119405232fd67df4"
+      }
+    },
+    {
+      "source": "revised_experiments/hkgis_composite_satisfaction/core.py",
+      "sha256": "55d42f63c51e06ab5d85ee93bf79547827333ea8d01bbb201e7ce4e1acc35268",
+      "units": [
+        "_finite_nonnegative",
+        "normalize_category",
+        "VisitEvidence",
+        "TrajectoryTaskEvidence"
+      ],
+      "unit_ast_sha256": {
+        "_finite_nonnegative": "8a89e6eeced33de93dac67c1ccc63764e8a913b61fc7c0349c18d3e1e8e0c9f7",
+        "normalize_category": "dc6adc9147712e71af70fc0139eed098446c6e1fa0accf454a5cc27c06f6e06d",
+        "VisitEvidence": "6b7ea45f7f0f50696589a7095870aa828690cdbae8c6312b7f7362fb7706edba",
+        "TrajectoryTaskEvidence": "dfb868ba955a4e575cce949f38aad6f118d211f1d98309617227175d810ab406"
+      }
+    },
+    {
+      "source": "revised_experiments/hkgis_composite_satisfaction/scoring.py",
+      "sha256": "b5733a54c312b7ece97ff7cbe63d4d632d6ef61969b723d99a1d073827b5f4ee",
+      "units": [
+        "_clip",
+        "count_satisfaction",
+        "order_satisfaction",
+        "accessibility_satisfaction"
+      ],
+      "unit_ast_sha256": {
+        "_clip": "b3d23a3266d6f57b3ffddb7596cceadd4f765c9f18653c097bc06f6f61c99aea",
+        "count_satisfaction": "be29df45e681f09e34bb50154043325c47e062b0578368f9fd825b62fe3678cb",
+        "order_satisfaction": "eaedf35e14ce7ba7a4cf479bbdfc4a4dff2b2350b8a9e62f8cd107ecaed28795",
+        "accessibility_satisfaction": "94cc86087f2dd8eca904cc495049b6393f3e377dbf90dec03e897bcfee7f171b"
+      }
+    },
+    {
+      "source": "revised_experiments/hkgis_goal_conditioned_detection/core.py",
+      "sha256": "003036c579ef8e6b6f919f39f7550f46641a404e90f963201d84f93526d97790",
+      "units": [
+        "score_v3"
+      ],
+      "unit_ast_sha256": {
+        "score_v3": "e9d61074e93e2a6daf07f52bb64cf073596f3109ca8b13d6f696eec1d9030a56"
+      }
+    },
+    {
+      "source": "output/geolife_controlled_sim_v1_20260930/evaluate.py",
+      "sha256": "7a8d8700388a40669ceb03c09a98a3a73cf024ec095cf052b1ad1daeb346d7e4",
+      "units": [
+        "confusion",
+        "metrics"
+      ],
+      "unit_ast_sha256": {
+        "confusion": "c5f68d330fc2a5971f94f0b6c573d3561964363fe42aa915b7d60565eec1fc1e",
+        "metrics": "deca05ebff851c6d1f01ebde8182b19947e49536bf0f0fd894ca4e9ff091fa5e"
+      }
+    },
+    {
+      "source": "output/entity_centric_st_v2_20261002/evaluate.py",
+      "sha256": "5aa0e160af051611e5b20890c293c52d3e6ed542e8b09418802bed329c03ce7c",
+      "units": [
+        "constraint_scores",
+        "event_metrics",
+        "classification",
+        "_order_summary",
+        "order_metrics"
+      ],
+      "unit_ast_sha256": {
+        "constraint_scores": "4b1f1bf25f5498abb7a8e843a0da54a336172cc14650530f927bbd2adddb9406",
+        "event_metrics": "168557b9840ae039f54c7d96ac9c44a8bf7f436d00375ada0667d0444081411f",
+        "classification": "6f0366f7d845761bb415c66e3574717232919268efb374c6b1b5138c979ebbaf",
+        "_order_summary": "ae61c7ac8f2501e4fe7241cd56be05d46a53e84e797d5a9abb5d61fe0a7de1d8",
+        "order_metrics": "0889c7754902d44d24ab66c4c4c7c336e94c7bfc126fced123f1cb604cc7c906"
+      }
+    },
+    {
+      "source": "output/goal_guided_event_recovery_v1_20261002/common.py",
+      "sha256": "7381232209a9b3019632948fae378e2ee50e4c0105ceed23c8c78e3dc41176bf",
+      "units": [
+        "evidence_score"
+      ],
+      "unit_ast_sha256": {
+        "evidence_score": "856ed9fa5f704b51bbe29ac97603a20e45c36f7a8b6e01156fd540fef15331a0"
+      }
+    },
+    {
+      "source": "output/external_comparison_v4_goal_protocol_20261002/lm_native.py",
+      "sha256": "738359b1cd0c09f88b93a127605933c6084b9a50a64545cbbb9466c62eaa4eeb",
+      "units": [
+        "_sha",
+        "author_module",
+        "_cells",
+        "embedding",
+        "load_model"
+      ],
+      "unit_ast_sha256": {
+        "_sha": "7e5102f3ca0babb9041fcabcb65aaee5f6a4803dc5cb51543c8d5b071ac97e8b",
+        "author_module": "46013a462bfad97ad7a67f7db88603c1f9993df90fb7554347bf658d84cc437e",
+        "_cells": "2b0dc900d30f90e211206fc63e9a2b481ef4fc4b482af14aca175281de4609dd",
+        "embedding": "813db4707430896cd4a52d4810183888d01008745bf0819e71915f1098a068b6",
+        "load_model": "63f5a607d20d7c3b5458939fb184413f41f1b8e280a8ded33b249d3dc512aa45"
+      }
+    },
+    {
+      "source": "output/external_comparison_v4_goal_protocol_20261002/ce_native.py",
+      "sha256": "6ed55e5bb2aa00da04e6945863026ba627309630101c81b30cbe55b5d3f1135f",
+      "units": [
+        "sha",
+        "_import",
+        "_author",
+        "load_models",
+        "embedding"
+      ],
+      "unit_ast_sha256": {
+        "sha": "f43200c2ab9413b67d32fb0f879a9b25c7d90b843e57a584062f8efed5e604e9",
+        "_import": "93da3ab4e6292d64d824a5918bec1c70b2ad26e3d1b32366e6366f2c3c6645de",
+        "_author": "0c4f7ae357324e90fddaa0d5f2faf86c8380773ef2ba2bf1bce7670624c4224b",
+        "load_models": "6cb8aae8e5376f7b6a755fa953b4397b530a901c60dcf37d70d3dba9765c245a",
+        "embedding": "15360ffeacef65aee577ea1c51b72d0e832b05661d9d2743d4becdd4addf9291"
+      }
+    },
+    {
+      "source": "output/external_comparison_v5_representative_20261003/gmvsae_native.py",
+      "sha256": "1adc6716c913a1d8274c198148ffa5b493ef9d7f863f2f830785034cad706da8",
+      "units": [
+        "sha",
+        "policy_hash",
+        "author_module",
+        "_tokens",
+        "embedding",
+        "_new_model",
+        "load_model"
+      ],
+      "unit_ast_sha256": {
+        "sha": "f43200c2ab9413b67d32fb0f879a9b25c7d90b843e57a584062f8efed5e604e9",
+        "policy_hash": "05e64eb58ea77986bf2da84efda5a1dcf81f5c13d670d90abdbd279ba365214e",
+        "author_module": "98418326a918d4e4485820113d279a5cf3166d05d4625f1428247a4abaa4b5f4",
+        "_tokens": "d9c45d2c1e97fb189da1c659dff3313ccdf05583766f9b36999deaf60c0add5c",
+        "embedding": "9a2a02ea5ab5b9cd541e6b35d4af302aabbb86ce02d8393bf4acb413d94dff94",
+        "_new_model": "1aae21000166154aec71668ecdcee6f77fd8560524bf39522fbef7abf2d535d4",
+        "load_model": "f5d31a5dd53228020db48868fe9e400e2ef6857543adc49edd00ccd964913042"
+      }
+    },
+    {
+      "source": "output/external_comparison_v5_representative_20261003/idk_native.py",
+      "sha256": "66d0e92c9f22d8dd689dbf1b161a897bc6f74d5787528632444f45e4da53d5cf",
+      "units": [
+        "author",
+        "distribution_features"
+      ],
+      "unit_ast_sha256": {
+        "author": "362394b6e1e2414160dc7f6e919f376cdce5bff176b686ceec19d3dca4528ee8",
+        "distribution_features": "169eeaf70c2acc15c043808caa594ca7c90db591e7f51a7ce4887bc9662e12bb"
+      }
+    },
+    {
+      "source": "output/external_comparison_v5_representative_20261003/model_api.py",
+      "sha256": "475ab46481d628cc2cb4e568f19c65a032d224b9e1973efb29e405e91c64a754",
+      "units": [
+        "FixedKernel",
+        "embedding"
+      ],
+      "unit_ast_sha256": {
+        "FixedKernel": "d421f711262e21f79b4575668dd9e2fc93aa294b11e5fb2d1e87bbe4d73f2af2",
+        "embedding": "6a8ecb6eb8aad2b9524ae4ffc311033bd9075da0d00f0cc8bb83771f0a470231"
+      }
+    },
+    {
+      "source": "output/external_comparison_v4_goal_protocol_20261002/adapter.py",
+      "sha256": "de6e03c517bf7b4dc112bd2bf128791c0fec0143b0077b98695f9a5c1d911293",
+      "units": [
+        "GoalAdapter",
+        "loss"
+      ],
+      "unit_ast_sha256": {
+        "GoalAdapter": "bbcbfec4d383a94f89149d0c59bd3ff07e4bd3246a26c45fd993e8544ff57667",
+        "loss": "2c9d77f51b5091ca02d35b51018d001d5632d7d396a4268346ce1c6afbca50c9"
+      }
+    },
+    {
+      "source": "output/external_comparison_v5_representative_20261003/adapter.py",
+      "sha256": "40ddf6853e3214ff58aa68f91196feb1ef4e149c61605daeb39bbbceb61dd116",
+      "units": [
+        "GoalAdapter",
+        "loss"
+      ],
+      "unit_ast_sha256": {
+        "GoalAdapter": "a61131c16e47264a518362b305c780a90cb2d9d88ccd16a9347e23844a67efe9",
+        "loss": "2c9d77f51b5091ca02d35b51018d001d5632d7d396a4268346ce1c6afbca50c9"
+      }
+    },
+    {
+      "source": "output/tadsgc_phase3_shared_transformer_20261004/phase3_models.py",
+      "sha256": "8abda8d4075bc8505e4af4762d7ffa814c662f812367654d7f415ef0c744faa1",
+      "units": [
+        "LinearAttentionBlock",
+        "SharedEncoder",
+        "Phase3Recovery"
+      ]
+    },
+    {
+      "source": "output/entity_centric_st_v2_20261002/model.py",
+      "sha256": "57394686c02130d24d95c06bd500eadd19368cfa85ef6a574ac24f40643df1e6",
+      "units": [
+        "ordering"
+      ]
+    },
+    {
+      "source": "output/entity_centric_st_v2_20261002/model.py",
+      "sha256": "57394686c02130d24d95c06bd500eadd19368cfa85ef6a574ac24f40643df1e6",
+      "units": [
+        "loss_function"
+      ]
+    },
+    {
+      "source": "output/entity_centric_st_v2_20261002/features.py",
+      "sha256": "cc04c624476163f14ed24334eb0827056a8cbc2f2675f410f3f751c2977b4ada",
+      "units": [
+        "make_features"
+      ]
+    },
+    {
+      "source": "output/geolife_controlled_sim_v1_20260930/simulator.py",
+      "sha256": "3a04d9207fafe5d73e51d99828cfa4b5e878c2be556696a2f722bd2ca774e94a",
+      "units": [
+        "spherical_distance",
+        "insertion_cost",
+        "circle_interval",
+        "event_intervals"
+      ]
+    },
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/observable_prepare.py",
+      "sha256": "90f3316de4b9cd5c14c31220115792d0b3a176b3b9c024e27854258264e21a87",
+      "units": [
+        "_geometry",
+        "prepare_observation",
+        "prepare_observations"
+      ]
+    },
+    {
+      "source": "revised_experiments/hkgis_composite_satisfaction/core.py",
+      "sha256": "55d42f63c51e06ab5d85ee93bf79547827333ea8d01bbb201e7ce4e1acc35268",
+      "units": [
+        "normalize_category"
+      ]
+    },
+    {
+      "source": "revised_experiments/hkgis_goal_conditioned_detection/detection_goal.py",
+      "sha256": "34bef4671cccfc0b42781569423cf29aca1cdfa7e446939e897395648aef9878",
+      "units": [
+        "StructuredGoalV3",
+        "goal_v3_from_mapping"
+      ]
+    },
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/indexed_reasoning.py",
+      "sha256": "c339da287bf540dcf7a86e0b7a96b12746c6eabfc214220b10b1f79411a38e8b",
+      "units": [
+        "CompiledGoals",
+        "EvidenceIndex",
+        "indexed_scores"
+      ]
+    }
+  ],
+  "selection_freeze_sha256": "de7e9c1eae5c7c3fa9f135cd2cc1fdeb33329f1a160c7babc6fde2b441d75b2e",
+  "weights": "All state_dict tensors are preserved; private checkpoint metadata is omitted.",
+  "category_ids": "Original category IDs and embedding order are preserved.",
+  "packaging_changes": [
+    "Relative imports and portable paths",
+    "Single default evaluation entry",
+    "Metadata field projection and compression",
+    "No new threshold fitting or bootstrap intervals"
+  ],
+  "third_party_sources": "Pinned source snapshots; see THIRD_PARTY.md."
+}

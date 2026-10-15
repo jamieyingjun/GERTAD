@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/external_runtime.py",
+      "sha256": "720fe91c4a7cd36ef7a32d99d1966436f02afbf2997de42c52503df35f97e3f4",
+      "units": [
+        "GoalCatalog",
+        "ObservationState"
+      ],
+      "unit_ast_sha256": {
+        "GoalCatalog": "7dcf8f193dc1022b511eda917c5689aa033e847afc0a856084aa94f0d6159102",
+        "ObservationState": "8addd1dbb5f10997919eb44edf56c75fbdd20a381b9dd8d9b199c552eb3857e3"
+      }
+    },
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/external_runtime_indexed.py",
+      "sha256": "1c69281ce5d615440ad7f9ec409c6c2b364707a31477726ab700d069143a9c2f",
+      "units": [
+        "IndexedCatalog",
+        "IndexedState"
+      ],
+      "unit_ast_sha256": {
+        "IndexedCatalog": "93bd445917ce6e6303179206f5bda6c3271a4da67be3033a7cda0b0e0ef0dd10",
+        "IndexedState": "1b8bdc5c09991572bb58d584fd52c090faa3752d151c77c02b9b52d53177d95f"
+      }
+    },
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/external_runtime.py",
+      "sha256": "720fe91c4a7cd36ef7a32d99d1966436f02afbf2997de42c52503df35f97e3f4",
+      "units": [
+        "concatenate_states"
+      ],
+      "unit_ast_sha256": {
+        "concatenate_states": "0e86fd39f08b76932c0de30fe2ceb6d25a31255f5bdfcfc699ab3802e1e498f9"
+      }
+    },
+    {
+      "source": "output/tadsgc_efficiency_v1_20261003/external_runtime_indexed.py",
+      "sha256": "1c69281ce5d615440ad7f9ec409c6c2b364707a31477726ab700d069143a9c2f",
+      "units": [
+        "concatenate_states"
+      ],
+      "unit_ast_sha256": {
+        "concatenate_states": "386d485363d3acf7cb1be94f1620b80ff9d57aab093e2fa5ec3e8e9a8b149fc5"
+      }
+    },
+    {
+      "source": "output/goal_guided_event_recovery_v1_20261002/prepare.py",
+      "sha256": "aab8a9ab41e672672912352182c7e0528a8d6b187e2f03b46a4a0f35b10bc0b2",
+      "units": [
+        "corruption"
+      ],
+      "unit_ast_sha256": {
+        "corruption": "45fb1514b713462fafa02c2890f5f5fd2bd42168d02f4435197946c439321166"
+      }
+    },
+    {
+      "source": "output/entity_centric_st_v2_20261002/prepare.py",
+      "sha256": "20406db1dfff9ebdd54506eddec7584814bc84ed0f607eff924ad0ab52fb42f1",
+      "units": [
+        "corruption"
+      ],
+      "unit_ast_sha256": {
+        "corruption": "959da369880615ad4c8b924660baa56a3e6ed2f6b99bc0332937245608c4b590"
+      }
+    }
+  ],
+  "adaptation": "Portable constructors and relative imports; original observation/query arithmetic retained."
+}
