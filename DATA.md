@@ -29,7 +29,7 @@ zero-based point-row indices after the six PLT header lines. It contains no
 GPS coordinate or timestamp arrays. Indices preserve the original selected
 rows, including the window whose retained rows are not contiguous.
 
-Each original trajectory file is checked by SHA-256 before use. Latitude
+Each original trajectory file is checked before use. Latitude
 and longitude are converted to the original binary32 precision; date and
 time fields are interpreted as UTC Unix seconds. The supplied POI entity
 arrays and context order are preserved. The final compressed input must
