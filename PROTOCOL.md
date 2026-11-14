@@ -12,9 +12,8 @@ recorded validation SMOKE conditions: `clean`, `gps_30`, `sampling_4`, and
 or checkpoint replacement.
 
 The current selection was frozen before the final quality/runtime evaluation.
-Earlier development involved historical TEST reuse, as recorded in the study.
-This is a reproduction of that frozen benchmark, with its stated development
-history. It does not constitute a new independent validation population.
+This program reproduces the frozen benchmark; it does not introduce a new
+independent validation population.
 
 Classification uses equal-user macro metrics within each condition and equal
 conditions for the aggregate. Average precision uses continuous scores and
