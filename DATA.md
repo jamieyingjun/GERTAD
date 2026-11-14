@@ -49,9 +49,10 @@ remain local and are ignored by Git.
 
 `map_candidates.json.gz` contains the unchanged `context_id` and `entities`
 fields from those controlled contexts, separated from trajectory coordinates
-and timestamps. POI candidates were obtained through the **AMap POI Search API**.
+and timestamps. POI candidates were obtained from cached responses of the
+**AMap reverse geocoding service**.
 The provider retains its rights and applicable terms. API attribution is not
-a new redistribution or reuse license. See the [AMap API documentation](https://lbs.amap.com/api/webservice/guide/api/search)
+a new redistribution or reuse license. See the [AMap API documentation](https://lbs.amap.com/api/webservice/guide/api/georegeo)
 and [service agreement](https://lbs.amap.com/pages/terms/).
 
 ## Controlled evaluation metadata

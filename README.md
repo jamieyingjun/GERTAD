@@ -118,7 +118,8 @@ the metric values to assess classification and recovery performance.
 | `run_experiments.py` | Single entry for input preparation and all 15 TEST jobs |
 
 GeoLife is linked rather than redistributed. POI candidates were obtained
-through the AMap POI Search API. Source notices and applicable provider terms
+from cached responses of the AMap reverse geocoding service. Source notices
+and applicable provider terms
 remain in force; see [DATA.md](DATA.md), [THIRD_PARTY.md](THIRD_PARTY.md),
 [PROTOCOL.md](PROTOCOL.md), [VALIDATION.md](VALIDATION.md), and
 [LICENSE_STATUS.md](LICENSE_STATUS.md). No repository-wide license has been
